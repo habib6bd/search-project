@@ -14,11 +14,15 @@
     <nav class="navbar bg-light">
         <div class="container-fluid">
           <div class="d-flex mx-auto" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input id="searchField" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" onclick="searchFood()" type="submit">Search</button>
           </div>
         </div>
       </nav>
+
+      <div id="searchResult" class="container row row-cols-1 row-cols-md-3 g-4 mx-auto">
+          
+      </div>
 
     <script src="/app.js"></script>
 </body>
